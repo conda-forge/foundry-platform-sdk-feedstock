@@ -12,6 +12,7 @@ Summary: The official Python library for the Foundry API
 Current build status
 ====================
 
+
 <table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=22763&branchName=main">
@@ -145,7 +146,4 @@ Feedstock Maintainers
 * [@jameszhang244](https://github.com/jameszhang244/)
 * [@jsmith](https://github.com/jsmith/)
 * [@tdeitch](https://github.com/tdeitch/)
-
-
-<!-- dummy commit to enable rerendering -->
 
