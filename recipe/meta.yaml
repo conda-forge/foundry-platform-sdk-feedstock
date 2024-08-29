@@ -34,7 +34,7 @@ test:
     - foundry
   commands:
     - pip check
-    - foundry --help
+    - foundry_v2 --help
   requires:
     - pip
     - click
