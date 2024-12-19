@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/a2/b2/8d715bbf45de1f37c4afd086a520427cb32203e5afc72443e603206558b1/foundry_platform_sdk-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: 0a9dcfe12c0b7039c5a2462dc9cbbb2ad39777673c8eed445d65473790dddedd
 
 build:
