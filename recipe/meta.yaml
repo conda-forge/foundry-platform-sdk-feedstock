@@ -1,5 +1,5 @@
 {% set name = "foundry-platform-sdk" %}
-{% set version = "0.50.0" %}
+{% set version = "0.58.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0a9dcfe12c0b7039c5a2462dc9cbbb2ad39777673c8eed445d65473790dddedd
+  sha256: 7731f72d0f22c55cde210bd55be0c5fe5a5173e7314a352c8d851532a1d68950
 
 build:
   entry_points:
@@ -19,12 +19,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9,<4.0
+    - python 3.9
     - setuptools >=35.0.2
     - poetry-core >=1.0.0
     - pip
   run:
-    - python >=3.9.0,<4.0.0
+    - python >=3.9
     - requests >=2.25.0,<3.0.0
     - pydantic >=2.1.0,<3.0.0
     - typing-extensions >=4.7.1
@@ -36,6 +36,7 @@ test:
     - pip check
     - foundry_v2 --help
   requires:
+    - python 3.9
     - pip
     - click
 
