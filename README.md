@@ -146,4 +146,5 @@ Feedstock Maintainers
 * [@jameszhang244](https://github.com/jameszhang244/)
 * [@jsmith](https://github.com/jsmith/)
 * [@tdeitch](https://github.com/tdeitch/)
+* [@afloren-palantir](https://github.com/afloren-palantir/)
 
