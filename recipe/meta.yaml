@@ -11,8 +11,8 @@ source:
 
 build:
   entry_points:
-    - foundry_v1 = foundry.v1.cli:cli
-    - foundry_v2 = foundry.v2.cli:cli
+    - foundry_v1 = foundry_sdk.v1.cli:cli
+    - foundry_v2 = foundry_sdk.v2.cli:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
@@ -32,7 +32,7 @@ requirements:
 
 test:
   imports:
-    - foundry
+    - foundry_sdk
   commands:
     - pip check
     - foundry_v2 --help
