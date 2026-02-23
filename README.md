@@ -144,10 +144,8 @@ Feedstock Maintainers
 =====================
 
 * [@afloren-palantir](https://github.com/afloren-palantir/)
+* [@bryantpark04](https://github.com/bryantpark04/)
 * [@jameszhang244](https://github.com/jameszhang244/)
 * [@jsmith](https://github.com/jsmith/)
 * [@tdeitch](https://github.com/tdeitch/)
-
-
-<!-- dummy commit to enable rerendering -->
 
