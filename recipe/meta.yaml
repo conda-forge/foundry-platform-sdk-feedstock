@@ -24,6 +24,9 @@ requirements:
     - poetry-core >=1.0.0
     - pip
   run:
+    # We can remove this upper bound on Python once we resolve forward references without mutating type objects
+    # in https://github.com/palantir/foundry-platform-python/blob/724e8703b8a5a3a529d05c9c915f7846ca398830/foundry_sdk/_core/utils.py#L114
+    # In Python 3.14, mutating a type object (`setattr(type_obj, "__args__", args)`) will raise an exception.
     - python >=3.10,<3.14
     - httpx >=0.25.0,<1.0.0
     - pydantic >=2.6.0,<3.0.0
