@@ -1,5 +1,5 @@
 {% set name = "foundry-platform-sdk" %}
-{% set version = "1.88.0" %}
+{% set version = "1.89.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 00e02d8666052681506ec6601ecaf281b92c9740c858008092d48962d07bd8db
+  sha256: 759c0f77a4fd2830ee38c43eda347542248fa44bf34a03e0a8c1fbf866b2e9d4
 
 build:
   entry_points:
