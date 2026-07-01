@@ -1,5 +1,5 @@
 {% set name = "foundry-platform-sdk" %}
-{% set version = "1.95.0" %}
+{% set version = "1.97.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 18c8375030b4020f8c998efd9b9872216d2c8d4eef19c7ed6288ad9339a3e4d9
+  sha256: ace4a57d2112e4df08d76d850f4c91a107de69627900202961193cbaa5d3a9ce
 
 build:
   entry_points:
@@ -26,6 +26,7 @@ requirements:
   run:
     - python >=3.10,<3.15
     - httpx >=0.25.0,<1.0.0
+    - httpx-sse >=0.4.0,<1.0.0
     - pydantic >=2.6.0,<3.0.0
     - typing-extensions >=4.7.1
     - annotated-types >=0.7.0
