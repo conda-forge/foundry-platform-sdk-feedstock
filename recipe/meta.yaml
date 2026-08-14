@@ -1,13 +1,13 @@
 {% set name = "foundry-platform-sdk" %}
-{% set version = "1.102.0" %}
+{% set version = "1.103.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 509cf29df60a2181cd3f896768663555591c867213ac3a477250c45cee18d4f2
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 93e401e83bea9191ec0bc45e470561c87703afc2a6724089441264e7d3a5daf5
 
 build:
   entry_points:
